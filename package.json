@@ -1,0 +1,23 @@
+{
+    "name": "RaverBot",
+    "description": "Raver the Discord role saver keeps a server pain free by storing user roles in a database so you'll never have to spend time reassigning them.",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Austin Wildgrube",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^11.4.2",
+        "rethinkdb": "^2.3.3"
+    },
+    "keywords": [
+        "raver",
+        "role",
+        "rank",
+        "backup",
+        "bot"
+    ],
+    "bugs": {
+        "url": "https://github.com/AustinWildgrube/RaverBot/issues"
+    },
+    "homepage": "https://github.com/AustinWildgrube/RaverBot#readme"
+}
