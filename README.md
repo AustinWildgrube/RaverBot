@@ -21,22 +21,21 @@ If the bot is running when a user enters your server, their user id, username, a
 - [cd](https://en.wikipedia.org/wiki/Cd_%28command%29) to where you would like RaverBot installed
 - Download RaverBot (open the [command prompt](http://windows.microsoft.com/en-us/windows/command-prompt-faq) and write `git clone https://github.com/AustinWildgrube/RaverBot.git` or if you don't have/want to use [git](https://git-scm.com/downloads), download the ZIP by clicking the green Download button at the top right of this page)
 - Open `lib/db.js` and change the variables to your specific information. Note that only variables with the `*Required*` comment are needed
+- Open `/index.js` and add your [bot token](https://discordapp.com/developers/applications/) at the bottom of the file
 
 #### Linux:
 - Install [Node.js v10.15.1](https://nodejs.org/en)
 - [cd](https://en.wikipedia.org/wiki/Cd_%28command%29) to where you would like RaverBot installed
 - Download RaverBot (open the [terminal](http://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal) and write `git clone https://github.com/AustinWildgrube/RaverBot.git` or if you don't have/want to use [git](https://git-scm.com/downloads), download the ZIP by clicking the green Download button at the top right of this page)
 - Open `lib/db.js` and change the variables to your specific information. Note that only variables with the `*Required*` comment are needed
-- Run `rethinkdb`in the RaverBot directory to start the the RethinkDB
-- Run `npm start` in the RaverBot directory to start the bot
+- Open `/index.js` and add your [bot token](https://discordapp.com/developers/applications/) at the bottom of the file
 
 #### Mac:
 - Install [Node.js v10.15.1](https://nodejs.org/en)
 - [cd](https://en.wikipedia.org/wiki/Cd_%28command%29) to where you would like RaverBot installed
 - Download RaverBot (open the [terminal](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) and write `git clone https://github.com/AustinWildgrube/RaverBot.git` or if you don't have/want to use [git](https://git-scm.com/downloads), download the ZIP by clicking the green Download button at the top right of this page)
 - Open `lib/db.js` and change the variables to your specific information. Note that only variables with the `*Required*` comment are needed
-- Run `rethinkdb`in the RaverBot directory to start the the RethinkDB
-- Run `npm start` in the RaverBot directory to start the bot
+- Open `/index.js` and add your [bot token](https://discordapp.com/developers/applications/) at the bottom of the file
 
 #### RethinkDB
 RaverBot comes setup and ready for [RethinkDB](https://www.rethinkdb.com/).
@@ -51,6 +50,8 @@ RaverBot comes setup and ready for [RethinkDB](https://www.rethinkdb.com/).
   - If you would like to keep RethinkDB running 24/7 you can run `$ nohup rethinkdb &` 
 - Run `npm start` in the RaverBot directory to start the bot
   - If you would like to keep the bot running 24/7 you can run `$ nohup npm start &`
+- Invite the bot to your server putting the URL in your browser `https://discordapp.com/oauth2/authorize?client_id=540018685000155156&permissions=8&scope=bot1`
+- The bot may only add roles lower than itself. To safe gaurd against it not working, make sure the bots role is the highest on the list
 
 ## Updating
 #### [Changelog](CHANGELOG.md)
