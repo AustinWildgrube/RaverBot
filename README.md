@@ -50,7 +50,7 @@ RaverBot comes setup and ready for [RethinkDB](https://www.rethinkdb.com/).
   - If you would like to keep RethinkDB running 24/7 you can run `$ nohup rethinkdb &` 
 - Run `npm start` in the RaverBot directory to start the bot
   - If you would like to keep the bot running 24/7 you can run `$ nohup npm start &`
-- Invite the bot to your server putting the URL in your browser `https://discordapp.com/oauth2/authorize?client_id=540018685000155156&permissions=8&scope=bot1`
+- Invite the bot to your server putting the URL in your browser `https://discordapp.com/oauth2/authorize?client_id=540018685000155156&scope=bot&permissions=8`
 - The bot may only add roles lower than itself. To safe gaurd against it not working, make sure the bots role is the highest on the list
 
 ## Updating
